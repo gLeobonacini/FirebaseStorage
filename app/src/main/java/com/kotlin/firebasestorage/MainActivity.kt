@@ -30,7 +30,7 @@ class MainActivity : AppCompatActivity() {
 
     fun config(){
         alertDialog = SpotsDialog.Builder().setContext(this).build()
-        storage = FirebaseStorage.getInstance().getReference("")
+        storage = FirebaseStorage.getInstance().getReference("prod_img")
     }
 
     // Configura a intent para obter a imagem da galeria
